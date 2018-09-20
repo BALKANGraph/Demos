@@ -1,0 +1,23 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+#tree {
+    width: 100%;
+    height: 100%;
+}
+
+#console {
+    padding: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 360px;
+    background-color: #FFCA28;
+    opacity: 0.6;
+}
