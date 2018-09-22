@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <string>events</string>
-  <string>departament-template</string>
+  <string>DepartamentTemplate</string>
+  <string>Events</string>
+  <string>NumberOfChildren</string>
+  <string>TemplatePicker</string>
+  <string>Templates</string>
 </ArrayOfString>  
