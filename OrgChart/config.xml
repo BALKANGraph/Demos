@@ -5,4 +5,5 @@
   <string>NumberOfChildren</string>
   <string>TemplatePicker</string>
   <string>Templates</string>
+  <string>ImportFromCSV</string>
 </ArrayOfString>  
