@@ -26,7 +26,6 @@ window.onload = function () {
 
 
     var chart = new OrgChart(document.getElementById("tree"), {
-        scaleInitial: BALKANGraph.match.boundary,
         template: "ula",
         enableSearch: false,
         nodeMenu: {

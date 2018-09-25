@@ -56,7 +56,6 @@ window.onload = function () {
     OrgChart.templates.luba.field_number_children = '<circle cx="230" cy="20" r="15" fill="#F57C00"></circle><text fill="#ffffff" x="230" y="25" text-anchor="middle">{val}</text>';
 
     var chart = new OrgChart(document.getElementById("tree"), {
-        scaleInitial: BALKANGraph.match.boundary,
         template: "luba",
         enableSearch: false,
         nodeBinding: {
