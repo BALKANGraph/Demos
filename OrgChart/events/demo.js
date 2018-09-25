@@ -17,6 +17,7 @@ window.onload = function () {
 
     var chart = new OrgChart(document.getElementById("tree"), {
         enableSearch: false,
+        scaleInitial: BALKANGrapth.match.boundary,
         onUpdateLink: updateLink,
         onUpdateNode: updateNode,
         onRemoveNode: removeNode,

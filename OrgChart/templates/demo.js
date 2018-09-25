@@ -2,6 +2,7 @@
 window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
         enableSearch: false,
+        scaleInitial: BALKANGrapth.match.boundary,
         template: "luba",
         nodeBinding: {
             field_0: "name",
