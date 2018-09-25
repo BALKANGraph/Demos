@@ -4,36 +4,30 @@
     <Name>DepartamentTemplate</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
-    <YouTubeLink></YouTubeLink>
   </Demo>
     <Demo>
     <Name>Events</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
-    <YouTubeLink></YouTubeLink>
   </Demo>
       <Demo>
     <Name>NumberOfChildren</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
-    <YouTubeLink></YouTubeLink>
   </Demo>
   <Demo>
     <Name>TemplatePicker</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
-    <YouTubeLink></YouTubeLink>
   </Demo>
   <Demo>
     <Name>Templates</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
-    <YouTubeLink></YouTubeLink>
   </Demo>
   <Demo>
     <Name>ImportFromCSV</Name>
     <Type>GitHub</Type>
     <GitHubLink></GitHubLink>
-    <YouTubeLink></YouTubeLink>
   </Demo>
 </ArrayOfDemo>
