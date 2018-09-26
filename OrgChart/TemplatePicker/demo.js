@@ -54,7 +54,7 @@ window.onload = function () {
             { id: 4, name: "Elliot Patel", title: "Marketing", img: "//balkangraph.com/js/img/5.jpg" },
             { id: 5, name: "Lynn Hussain", title: "Marketing", img: "//balkangraph.com/js/img/6.jpg" },
             { id: 6, name: "Tanner May", title: "Developer", img: "//balkangraph.com/js/img/7.jpg" },
-            { id: 7, name: "Fran Parsons", title: "Developer" img: "//balkangraph.com/js/img/8.jpg" }
+            { id: 7, name: "Fran Parsons", title: "Developer", img: "//balkangraph.com/js/img/8.jpg" }
         ]
     });
 
