@@ -1,3 +1,3 @@
-# OrgChart Department Template
-Custom Template, you can use this demo as starting point to implement your won custom theme
+# Custom Department Template
+Shows how to implement your own template with vertical and horizontal nodes, you can use this demo as a starting point to implement your won custom theme.
 
