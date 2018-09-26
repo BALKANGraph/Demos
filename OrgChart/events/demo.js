@@ -33,12 +33,20 @@ window.onload = function () {
         },
         links: [
             { from: 2, to: 1 },
-            { from: 3, to: 1 }
+            { from: 3, to: 1 },
+            { from: 4, to: 2 },
+            { from: 5, to: 2 },
+            { from: 6, to: 3 },
+            { from: 7, to: 3 }
         ],
         nodes: [
             { id: 1, name: "Denny Curtis", img: "//balkangraph.com/js/img/2.jpg" },
             { id: 2, name: "Ashley Barnett", img: "//balkangraph.com/js/img/3.jpg" },
-            { id: 3, name: "Caden Ellison", img: "//balkangraph.com/js/img/4.jpg" }
+            { id: 3, name: "Caden Ellison", img: "//balkangraph.com/js/img/4.jpg" },
+            { id: 4, name: "Elliot Patel", img: "//balkangraph.com/js/img/5.jpg" },
+            { id: 5, name: "Lynn Hussain", img: "//balkangraph.com/js/img/6.jpg" },
+            { id: 6, name: "Tanner May", img: "//balkangraph.com/js/img/7.jpg" },
+            { id: 7, name: "Fran Parsons", img: "//balkangraph.com/js/img/8.jpg" }
         ]
     });
 };
