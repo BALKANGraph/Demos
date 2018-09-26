@@ -1,13 +1,13 @@
 
 window.onload = function () {
     var nodes = [
-        { id: 1, name: "Denny Curtis", title: "CEO", img: "//balkangraph.com/js/img/2.jpg" },
-        { id: 2, name: "Ashley Barnett", title: "Marketing Manager", img: "//balkangraph.com/js/img/3.jpg" },
-        { id: 3, name: "Caden Ellison", title: "Dev Manager", img: "//balkangraph.com/js/img/4.jpg" },
-        { id: 4, name: "Elliot Patel", title: "Marketing", img: "//balkangraph.com/js/img/5.jpg" },
-        { id: 5, name: "Lynn Hussain", title: "Marketing", img: "//balkangraph.com/js/img/6.jpg" },
-        { id: 6, name: "Tanner May", title: "Developer", img: "//balkangraph.com/js/img/7.jpg" },
-        { id: 7, name: "Fran Parsons", title: "Developer", img: "//balkangraph.com/js/img/8.jpg" }
+        { id: 1, name: "Denny Curtis", img: "//balkangraph.com/js/img/2.jpg" },
+        { id: 2, name: "Ashley Barnett", img: "//balkangraph.com/js/img/3.jpg" },
+        { id: 3, name: "Caden Ellison", img: "//balkangraph.com/js/img/4.jpg" },
+        { id: 4, name: "Elliot Patel", img: "//balkangraph.com/js/img/5.jpg" },
+        { id: 5, name: "Lynn Hussain", img: "//balkangraph.com/js/img/6.jpg" },
+        { id: 6, name: "Tanner May", img: "//balkangraph.com/js/img/7.jpg" },
+        { id: 7, name: "Fran Parsons", img: "//balkangraph.com/js/img/8.jpg" }
     ];
 
     var links = [
@@ -60,7 +60,6 @@ window.onload = function () {
         scaleInitial: BALKANGraph.match.boundary,
         nodeBinding: {
             field_0: "name",
-            field_1: "title",
             img_0: "img",
             field_number_children: "field_number_children"
         },
