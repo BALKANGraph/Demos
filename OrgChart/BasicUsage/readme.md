@@ -1,6 +1,12 @@
 # Basic Usage
-Demosntrates how to Edit, Add, Remove or Drag&Drop nodes. 
-Built-in search field allows users to search for nodes.
+In this demo you can perform the following operations:
+	- Edit mode
+	- Add new node
+	- Remove nodes
+	- Drag&Drop nodes
+	- Expand Collapse
+	- Export to SVG file
+	- Export to CSV file
 
 BALKANGraph OrgChart is a powerful widget which allows you to visualize and edit nodes. It provides a variety of options about how to present and perform operations over the underlying data.
 
