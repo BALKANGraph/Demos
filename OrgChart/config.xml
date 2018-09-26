@@ -33,6 +33,6 @@
   <Demo>
     <Name>ImportFromCSV</Name>
     <Type>GitHub</Type>
-    <GitHubLink></GitHubLink>
+    <GitHubLink>https://github.com/BALKANGraph/OrgChart.ImportFormCSV</GitHubLink>
   </Demo>
 </ArrayOfDemo>
