@@ -16,7 +16,6 @@ window.onload = function () {
     };
 
     var chart = new OrgChart(document.getElementById("tree"), {
-        enableSearch: false,
         scaleInitial: BALKANGraph.match.boundary,
         onUpdateLink: updateLink,
         onUpdateNode: updateNode,

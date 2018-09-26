@@ -58,7 +58,6 @@ window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
         template: "luba",
         scaleInitial: BALKANGraph.match.boundary,
-        enableSearch: false,
         nodeBinding: {
             field_0: "name",
             img_0: "img",
