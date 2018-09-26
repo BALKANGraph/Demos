@@ -1,6 +1,6 @@
 
 window.onload = function () {
-    var nodes = nodes: [
+    var nodes = [
         { id: 1, name: "Denny Curtis", title: "CEO", img: "//balkangraph.com/js/img/2.jpg" },
         { id: 2, name: "Ashley Barnett", title: "Marketing Manager", img: "//balkangraph.com/js/img/3.jpg" },
         { id: 3, name: "Caden Ellison", title: "Dev Manager", img: "//balkangraph.com/js/img/4.jpg" },
