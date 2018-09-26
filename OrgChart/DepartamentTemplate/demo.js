@@ -6,13 +6,15 @@ window.onload = function () {
         + '<g transform="matrix(3.5,0,0,3.5,20,20)"><circle cx="12" cy="22" r="12" fill="#039BE5"></circle>'
         + '<circle cx="33" cy="14" r="10" fill="#FFCA28"></circle>'
         + '<circle cx="30" cy="32" r="8" fill="#F57C00"></circle></g>';
-
+    OrgChart.templates.company.ripple = '<clipPath id="rippleClip"><rect x="0" y="0" width="200" height="200" rx="100" ry="100" /></clipPath><circle clip-path="url(#rippleClip)" cx="{x}" cy="{y}" r="0" fill="#039BE5"></circle>';
 
     OrgChart.templates.department = Object.assign({}, OrgChart.templates.ana);
     OrgChart.templates.department.size = [330, 50];
     OrgChart.templates.department.node =
         '<rect x="0" y="0" width="330" height="50" fill="#ffffff" stroke-width="1" stroke="#aeaeae"></rect>';
     OrgChart.templates.department.field_0 = '<text style="font-size: 24px;" fill="#aeaeae" x="165" y="30" text-anchor="middle">{val}</text>';
+    OrgChart.templates.department.ripple = '<clipPath id="rippleClip"><rect x="0" y="0" width="330" height="50" /></clipPath><circle clip-path="url(#rippleClip)" cx="{x}" cy="{y}" r="0" fill="#F57C00"></circle>';
+
 
 
     OrgChart.templates.staff = Object.assign({}, OrgChart.templates.ana);
@@ -20,6 +22,7 @@ window.onload = function () {
     OrgChart.templates.staff.node =
         '<rect x="0" y="0" width="50" height="300" fill="#ffffff" stroke-width="1" stroke="#aeaeae"></rect>';
     OrgChart.templates.staff.field_0 = '<text transform="rotate(90)"  style="font-size: 24px;" fill="#aeaeae" x="150" y="-15" text-anchor="middle">{val}</text>';
+    OrgChart.templates.staff.ripple = '<clipPath id="rippleClip"><rect x="0" y="0" width="50" height="300" /></clipPath><circle clip-path="url(#rippleClip)" cx="{x}" cy="{y}" r="0" fill="#FFCA28"></circle>';
 
 
 
