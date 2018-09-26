@@ -1,7 +1,7 @@
 # Basic Usage
 In this demo you can perform the following operations:
-	- Edit mode
-	- Add new node
+	- Edit nodes
+	- Add new nodes
 	- Remove nodes
 	- Drag&Drop nodes
 	- Expand Collapse
