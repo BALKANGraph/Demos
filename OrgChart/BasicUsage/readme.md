@@ -8,5 +8,5 @@ In this demo you can perform the following operations:
 	- Export to SVG file
 	- Export to CSV file
 
-BALKANGraph OrgChart is a powerful widget which allows you to visualize and edit nodes. It provides a variety of options about how to present and perform operations over the underlying data.
+OrgChart JS is a powerful widget which allows you to visualize and edit nodes. It provides a variety of options about how to present and perform operations over the underlying data.
 

@@ -2,6 +2,6 @@
 authors: 
   - "BALKAN Software"
   - "Plamen Peshev"
-description: "OrgChart Import From CSV"
+description: "OrgChart JS Import From CSV"
 name: "Import From CSV - OrgChart JS | BALKANGraph"
 ...
