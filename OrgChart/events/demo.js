@@ -42,13 +42,13 @@ window.onload = function () {
             { from: 7, to: 3 }
         ],
         nodes: [
-            { id: 1, name: "Denny Curtis", title: "CEO", img: "//balkangraph.com/js/img/2.jpg" },
-            { id: 2, name: "Ashley Barnett", title: "Sales Manager", img: "//balkangraph.com/js/img/3.jpg" },
-            { id: 3, name: "Caden Ellison", title: "Dev Manager", img: "//balkangraph.com/js/img/4.jpg" },
-            { id: 4, name: "Elliot Patel", title: "Sales", img: "//balkangraph.com/js/img/5.jpg" },
-            { id: 5, name: "Lynn Hussain", title: "Sales", img: "//balkangraph.com/js/img/6.jpg" },
-            { id: 6, name: "Tanner May", title: "Developer", img: "//balkangraph.com/js/img/7.jpg" },
-            { id: 7, name: "Fran Parsons", title: "Developer", img: "//balkangraph.com/js/img/8.jpg" }
+            { id: 1, name: "Denny Curtis", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
+            { id: 2, name: "Ashley Barnett", title: "Sales Manager", img: "https://balkangraph.com/js/img/3.jpg" },
+            { id: 3, name: "Caden Ellison", title: "Dev Manager", img: "https://balkangraph.com/js/img/4.jpg" },
+            { id: 4, name: "Elliot Patel", title: "Sales", img: "https://balkangraph.com/js/img/5.jpg" },
+            { id: 5, name: "Lynn Hussain", title: "Sales", img: "https://balkangraph.com/js/img/6.jpg" },
+            { id: 6, name: "Tanner May", title: "Developer", img: "https://balkangraph.com/js/img/7.jpg" },
+            { id: 7, name: "Fran Parsons", title: "Developer", img: "https://balkangraph.com/js/img/8.jpg" }
         ]
     });
 };

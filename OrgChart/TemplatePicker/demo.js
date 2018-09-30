@@ -48,13 +48,13 @@ window.onload = function () {
             { from: 7, to: 3 }
         ],
         nodes: [
-            { id: 1, name: "Denny Curtis", title: "CEO", img: "//balkangraph.com/js/img/2.jpg" },
-            { id: 2, name: "Ashley Barnett", title: "Sales Manager", img: "//balkangraph.com/js/img/3.jpg" },
-            { id: 3, name: "Caden Ellison", title: "Dev Manager", img: "//balkangraph.com/js/img/4.jpg" },
-            { id: 4, name: "Elliot Patel", title: "Sales", img: "//balkangraph.com/js/img/5.jpg" },
-            { id: 5, name: "Lynn Hussain", title: "Sales", img: "//balkangraph.com/js/img/6.jpg" },
-            { id: 6, name: "Tanner May", title: "Developer", img: "//balkangraph.com/js/img/7.jpg" },
-            { id: 7, name: "Fran Parsons", title: "Developer", img: "//balkangraph.com/js/img/8.jpg" }
+            { id: 1, name: "Denny Curtis", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
+            { id: 2, name: "Ashley Barnett", title: "Sales Manager", img: "https://balkangraph.com/js/img/3.jpg" },
+            { id: 3, name: "Caden Ellison", title: "Dev Manager", img: "https://balkangraph.com/js/img/4.jpg" },
+            { id: 4, name: "Elliot Patel", title: "Sales", img: "https://balkangraph.com/js/img/5.jpg" },
+            { id: 5, name: "Lynn Hussain", title: "Sales", img: "https://balkangraph.com/js/img/6.jpg" },
+            { id: 6, name: "Tanner May", title: "Developer", img: "https://balkangraph.com/js/img/7.jpg" },
+            { id: 7, name: "Fran Parsons", title: "Developer", img: "https://balkangraph.com/js/img/8.jpg" }
         ]
     });
 
@@ -62,7 +62,7 @@ window.onload = function () {
     for (var templateNeme in OrgChart.templates) {
         var node = new BALKANGraph.node(templateNeme, templateNeme);
         var template = OrgChart.templates[templateNeme];
-        node.data = { id: 1, name: "Lorem ipsum", title: "Dolor sit amet", img: "//balkangraph.com/js/img/empty-img-white.svg" };
+        node.data = { id: 1, name: "Lorem ipsum", title: "Dolor sit amet", img: "https://balkangraph.com/js/img/empty-img-white.svg" };
         html += '<svg data-template-name="' + templateNeme + '" style="padding: 2px 0px  2px 7px; cursor:pointer; padding: 10px;" preserveAspectRatio="xMaxYMax meet" width="' + node.w + '" height="' + (node.h + 30) + '" viewBox="0, 0, ' + node.w + ', ' + (node.h) + '"><defs>' + chart.ui.defs() + '</defs>' + chart.ui.node(node, [], chart.config, 0, 0, chart.nodeBinding) + "</svg>";
     }
 
@@ -81,7 +81,7 @@ window.onload = function () {
 
             node.pid = parentNodeId;
             node.data.tags = [name];
-            node.data.img = "//balkangraph.com/js/img/empty-img-white.svg";
+            node.data.img = "https://balkangraph.com/js/img/empty-img-white.svg";
             chart.addNode(node);
 
             hideTemplatePicker();
