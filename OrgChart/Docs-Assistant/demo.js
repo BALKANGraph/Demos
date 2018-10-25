@@ -37,7 +37,7 @@ window.onload = function () {
             { id: 5, name: "Lynn Hussain", title: "Sales", img: "https://balkangraph.com/js/img/6.jpg" },
             { id: 6, name: "Tanner May", title: "Developer", img: "https://balkangraph.com/js/img/7.jpg" },
             { id: 7, name: "Fran Parsons", title: "Developer", img: "https://balkangraph.com/js/img/8.jpg" },
-            { id: 8, tags: ["assistant"], name: "Rudy Griffiths", title: "Assistant", img: "https://balkangraph.com/js/img/9.jpg" }
+            { id: 8, tags: ["assistant"], name: "Rudy Griffiths", title: "Assistant", img: "https://balkangraph.com/js/img/9.jpg" },
             { id: 9, tags: ["assistant"], name: "Eli Palmer", title: "Assistant", img: "https://balkangraph.com/js/img/10.jpg" }
 
         ]
