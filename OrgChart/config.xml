@@ -6,6 +6,11 @@
     <GitHubLink></GitHubLink>
   </Demo>
   <Demo>
+    <Name>Assistant</Name>
+    <Type>JS</Type>
+    <GitHubLink></GitHubLink>
+  </Demo>
+  <Demo>
     <Name>DepartamentTemplate</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
