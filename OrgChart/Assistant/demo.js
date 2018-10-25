@@ -1,6 +1,6 @@
 window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
-        orientation: BALKANGraph.orientation.top,
+        scaleInitial: BALKANGraph.match.boundary,
         enableDragDrop: true,
         enableSearch: false,
         template: "diva",
