@@ -3,12 +3,6 @@ window.onload = function () {
         scaleInitial: BALKANGraph.match.boundary,
         enableDragDrop: true,
         enableSearch: false,
-        template: "diva",
-        tags: {
-            "assistant": {
-                template: "mery"
-            }
-        },
         nodeMenu: {
             edit: { text: "Edit" },
             add: { text: "Add" },
@@ -19,6 +13,7 @@ window.onload = function () {
             field_1: "title",
             img_0: "img"
         },
+
         links: [
             { from: 2, to: 1 },
             { from: 3, to: 1 },
@@ -26,8 +21,8 @@ window.onload = function () {
             { from: 5, to: 2 },
             { from: 6, to: 3 },
             { from: 7, to: 3 },
-            { from: 8, to: 1 },
-            { from: 9, to: 1 }
+            { from: 8, to: 2 },
+            { from: 9, to: 2 }
         ],
         nodes: [
             { id: 1, tags: ["ceo"], name: "Denny Curtis", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
