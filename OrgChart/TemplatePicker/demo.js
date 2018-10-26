@@ -60,7 +60,7 @@ window.onload = function () {
 
     var html = "";
     for (var templateNeme in OrgChart.templates) {
-        var node = new BALKANGraph.node(templateNeme, templateNeme);
+        var node = new BALKANGraph.node(templateNeme, [], templateNeme);
         var template = OrgChart.templates[templateNeme];
         node.data = { id: 1, name: "Lorem ipsum", title: "Dolor sit amet", img: "https://balkangraph.com/js/img/empty-img-white.svg" };
         html += '<svg data-template-name="' + templateNeme + '" style="padding: 2px 0px  2px 7px; cursor:pointer; padding: 10px;" preserveAspectRatio="xMaxYMax meet" width="' + node.w + '" height="' + (node.h + 30) + '" viewBox="0, 0, ' + node.w + ', ' + (node.h) + '"><defs>' + chart.ui.defs() + '</defs>' + chart.ui.node(node, [], chart.config, 0, 0, chart.nodeBinding) + "</svg>";
@@ -73,7 +73,7 @@ window.onload = function () {
     for (var i = 0; i < templateElements.length; i++) {
         templateElements[i].addEventListener("click", function () {
             var name = this.getAttribute("data-template-name");
-            var node = new BALKANGraph.node(null, name);
+            var node = new BALKANGraph.node(null, [], name);
 
             if (!chart.config.tags[name]) {
                 chart.config.tags[name] = { template: name };
