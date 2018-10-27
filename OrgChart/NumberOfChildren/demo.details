@@ -2,6 +2,6 @@
 authors: 
   - "BALKAN Software"
   - "Plamen Peshev"
-description: "OrgChart JS Number Of Children"
+description: "OrgChart JS demo that demosntrates how to add number of children in a node."
 name: "Number Of Children - OrgChart JS | BALKANGraph"
 ...

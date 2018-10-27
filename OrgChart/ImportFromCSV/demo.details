@@ -2,6 +2,6 @@
 authors: 
   - "BALKAN Software"
   - "Plamen Peshev"
-description: "OrgChart JS Import From CSV"
+description: "Creating an OrgChart JS by importing data is the simple process of importing a well-structured CSV file (indicating reporting relationships). The result of the import is an automatically generated OrgChart JS!"
 name: "Import From CSV - OrgChart JS | BALKANGraph"
 ...
