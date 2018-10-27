@@ -7,6 +7,7 @@ window.onload = function () {
         + '<circle cx="33" cy="14" r="10" fill="#FFCA28"></circle>'
         + '<circle cx="30" cy="32" r="8" fill="#F57C00"></circle></g>';
     OrgChart.templates.company.rippleColor = "#039BE5";
+    OrgChart.templates.company.rippleRadius = 100;
 
     OrgChart.templates.department = Object.assign({}, OrgChart.templates.ana);
     OrgChart.templates.department.size = [330, 50];
