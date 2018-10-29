@@ -1,4 +1,13 @@
 window.onload = function () {
+    OrgChart.templates.toni = Object.assign({}, OrgChart.templates.belinda);
+    OrgChart.templates.toni.size = [30, 30];
+    OrgChart.templates.toni.node = '<circle cx="15" cy="15" r="15" fill="#039BE5" stroke-width="1" stroke="#aeaeae"></circle>';
+    OrgChart.templates.toni.minus = "";
+    OrgChart.templates.toni.plus = "";
+    OrgChart.templates.toni.rippleRadius = 15;
+    OrgChart.templates.toni.link_field_0 = '<g transform="rotate(90)"><text text-anchor="middle" fill="#aeaeae" width="290" x="0" y="0" style="font-size:18px;">{val}</text></g>';
+
+    OrgChart.templates.toni.field_0 = '<text class="field_0" style="font-size: 18px;" text-anchor="middle" fill="#039BE5"  x="15" y="48">{val}</text>';
     var chart = new OrgChart(document.getElementById("tree"), {
         scaleInitial: BALKANGraph.match.boundary,
         enableDragDrop: false,

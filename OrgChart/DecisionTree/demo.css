@@ -48,4 +48,7 @@ html, body {
 .node-end text {
     fill: #aeaeae;
 }
+#tree {
+    background-color: #2E2E2E;
+}
 
