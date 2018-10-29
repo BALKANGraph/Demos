@@ -17,8 +17,16 @@ html, body {
     stroke: #FFCA28;
 }
 
+.link-yes text {
+    fill: #FFCA28;
+}
+
 .link-no path {
     stroke: #F57C00;
+}
+
+.link-no text {
+    fill: #F57C00;
 }
 
 [level='0'] path {
@@ -35,5 +43,9 @@ html, body {
 
 .node-end circle {
     fill: #f1f1f1;
+}
+
+.node-end text {
+    fill: #aeaeae;
 }
 
