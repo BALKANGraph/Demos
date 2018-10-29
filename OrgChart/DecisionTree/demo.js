@@ -26,12 +26,12 @@ window.onload = function () {
             link_field_0: "text"
         },
         links: [
-            { from: 2, to: 1, text: "no", tags: ["link-no"] },
-            { from: 3, to: 1, text: "yes", tags: ["link-yes"] },
-            { from: 4, to: 2, text: "no", tags: ["link-no"] },
-            { from: 5, to: 2, text: "yes", tags: ["link-yes"] },
-            { from: 6, to: 4, text: "no", tags: ["link-no"] },
-            { from: 7, to: 4, text: "yes", tags: ["link-yes"] }
+            { from: 2, to: 1, text: "yes", tags: ["link-yes"] },
+            { from: 3, to: 1, text: "no", tags: ["link-no"] },
+            { from: 4, to: 2, text: "yes", tags: ["link-yes"] },
+            { from: 5, to: 2, text: "no", tags: ["link-no"] },
+            { from: 6, to: 4, text: "yes", tags: ["link-yes"] },
+            { from: 7, to: 4, text: "no", tags: ["link-no"] }
         ],
         nodes: [
             { id: 1, text: "Is it raining?" },
