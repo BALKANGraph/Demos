@@ -41,6 +41,11 @@
     <GitHubLink></GitHubLink>
   </Demo>
   <Demo>
+    <Name>DecisionTree</Name>
+    <Type>JS</Type>
+    <GitHubLink></GitHubLink>
+  </Demo>
+  <Demo>
     <Name>ImportFromCSV</Name>
     <Type>GitHub</Type>
     <GitHubLink>https://github.com/BALKANGraph/OrgChart.ImportFormCSV</GitHubLink>
