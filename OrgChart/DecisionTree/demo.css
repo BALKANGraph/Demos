@@ -49,6 +49,7 @@ html, body {
     fill: #aeaeae;
 }
 #tree {
-    background-color: #2E2E2E;
+    background-color: #f1f1f1;
+    border-radius: 40px;
 }
 
