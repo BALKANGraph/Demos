@@ -14,6 +14,9 @@ window.onload = function () {
     function addNode() {
         c.innerHTML += "addNode()<br />";
     };
+    function redraw() {
+        c.innerHTML += "redraw()<br />";
+    };
 
     var chart = new OrgChart(document.getElementById("tree"), {
         scaleInitial: BALKANGraph.match.boundary,
@@ -23,6 +26,7 @@ window.onload = function () {
         onUpdateNode: updateNode,
         onRemoveNode: removeNode,
         onAddNode: addNode,
+        onRedraw: redraw,
         nodeMenu: {
             edit: { text: "Edit" },
             add: { text: "Add" },
