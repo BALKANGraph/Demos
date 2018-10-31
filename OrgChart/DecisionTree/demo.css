@@ -13,21 +13,22 @@ html, body {
 }
 
 /*partial*/
-.link-yes path {
+.link.node-end path {
     stroke: #FFCA28;
 }
 
-.link-yes text {
+.link.node-end text {
     fill: #FFCA28;
 }
 
-.link-no path {
+.link path {
     stroke: #F57C00;
 }
 
-.link-no text {
+.link text {
     fill: #F57C00;
 }
+
 
 [level='0'] path {
     stroke-width: 9;
@@ -48,6 +49,7 @@ html, body {
 .node-end text {
     fill: #aeaeae;
 }
+
 #tree {
     background-color: #f1f1f1;
     border-radius: 40px;
