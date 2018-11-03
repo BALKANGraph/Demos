@@ -1,4 +1,3 @@
-
 window.onload = function () {
     var nodes = [
         { id: 1, name: "Denny Curtis", img: "https://balkangraph.com/js/img/2.jpg" },
@@ -53,10 +52,10 @@ window.onload = function () {
         return count;
     }
 
-    OrgChart.templates.luba.field_number_children = '<circle cx="230" cy="20" r="15" fill="#F57C00"></circle><text fill="#ffffff" x="230" y="25" text-anchor="middle">{val}</text>';
+    OrgChart.templates.rony.field_number_children = '<circle cx="60" cy="110" r="15" fill="#F57C00"></circle><text fill="#ffffff" x="60" y="115" text-anchor="middle">{val}</text>';
 
     var chart = new OrgChart(document.getElementById("tree"), {
-        template: "luba",
+        template: "rony",
         scaleInitial: BALKANGraph.match.boundary,
         nodeBinding: {
             field_0: "name",
