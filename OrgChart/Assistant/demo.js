@@ -13,6 +13,7 @@ window.onload = function () {
             }
         },
         nodeMenu: {
+            details: { text: "Details" },
             edit: { text: "Edit" },
             add: { text: "Add" },
             remove: { text: "Remove" }

@@ -9,6 +9,7 @@ window.onload = function () {
             csv: { text: "Export CSV" }
         },
         nodeMenu: {
+            details: { text: "Details" },
             add: { text: "Add New" },
             edit: { text: "Edit" },
             remove: { text: "Remove" },

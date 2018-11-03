@@ -28,6 +28,7 @@ window.onload = function () {
         onAddNode: addNode,
         onRedraw: redraw,
         nodeMenu: {
+            details: { text: "Details" },
             edit: { text: "Edit" },
             add: { text: "Add" },
             remove: { text: "Remove" }
