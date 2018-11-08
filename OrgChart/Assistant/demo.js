@@ -3,13 +3,9 @@ window.onload = function () {
         scaleInitial: BALKANGraph.match.boundary,
         enableDragDrop: true,
         enableSearch: false,
-        template: "diva",
         tags: {
             "assistant": {
-                template: "mery"
-            },
-            "ceo": {
-                template: "belinda"
+                template: "ula"
             }
         },
         nodeMenu: {
@@ -33,7 +29,7 @@ window.onload = function () {
             { from: 8, to: 1 }
         ],
         nodes: [
-            { id: 1, tags: ["ceo"], name: "Denny Curtis", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
+            { id: 1, name: "Denny Curtis", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
             { id: 2, name: "Ashley Barnett", title: "Sales Manager", img: "https://balkangraph.com/js/img/3.jpg" },
             { id: 3, tags: "RR", name: "Caden Ellison", title: "Dev Manager", img: "https://balkangraph.com/js/img/4.jpg" },
             { id: 4, name: "Elliot Patel", title: "Sales", img: "https://balkangraph.com/js/img/5.jpg" },
