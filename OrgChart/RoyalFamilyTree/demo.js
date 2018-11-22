@@ -130,32 +130,19 @@ window.onload = function () {
             img_1: "img1",
             img_2: "img2"
         },
-        links: [
-            { from: "2", to: "1" },
-            { from: "3", to: "1" },
-            { from: "4", to: "2" },
-            { from: "5", to: "2" },
-            { from: "6", to: "2" },
-            { from: "7", to: "2" },
-            { from: "8", to: "4" },
-            { from: "9", to: "4" },
-            { from: "10", to: "8" },
-            { from: "11", to: "8" },
-            { from: "12", to: "8" },
-        ],
         nodes: [
             { id: "1", tags: ["family_template_24"], name1: "King George VI", name2: "Queen Elizabeth,", title2: "The Queen Mother", img0: "https://balkangraph.com/js/img/f1.png", img1: "https://balkangraph.com/js/img/f2.png" },
-            { id: "2", tags: ["family_template_25"], name1: "Prince Philip", name2: "Queen Elizabeth II", title1: "Duke of Edinburgh", img0: "https://balkangraph.com/js/img/f3.png", img1: "https://balkangraph.com/js/img/f5.png" },
-            { id: "3", tags: ["family_template_11"], name1: "Princess Margaret", img0: "https://balkangraph.com/js/img/f6.png" },
-            { id: "4", tags: ["family_template_31"], name1: "Camila,", name2: "Charles,", name3: "Diana,", title1: "Duchess of Cornwall", title2: "Prince of Wales", title3: "Princess of Wales", img0: "https://balkangraph.com/js/img/f7.png", img1: "https://balkangraph.com/js/img/f8.png", img2: "https://balkangraph.com/js/img/f9.png" },
-            { id: "5", tags: ["family_template_11"], name1: "Anne", title1: "Princess Royal", img0: "https://balkangraph.com/js/img/f10.png" },
-            { id: "6", tags: ["family_template_11"], name1: "Prince Andrew", title1: "Duke of York", img0: "https://balkangraph.com/js/img/f11.png" },
-            { id: "7", tags: ["family_template_11"], name1: "Prince Edward", title1: "Earl of Wessex", img0: "https://balkangraph.com/js/img/f12.png" },
-            { id: "8", tags: ["family_template_23"], name1: "Catherine,", name2: "Prince William", title1: "Duchess of Cambridge", title2: "Duch of Cambridge", img0: "https://balkangraph.com/js/img/f13.png", img1: "https://balkangraph.com/js/img/f14.png" },
-            { id: "9", tags: ["family_template_22"], name1: "Prince Harry", name2: "Meghan Markle", img0: "https://balkangraph.com/js/img/f15.png", img1: "https://balkangraph.com/js/img/f16.png" },
-            { id: "10", tags: ["family_template_12"], name1: "Prince George of Cambridge", img0: "https://balkangraph.com/js/img/f17.png" },
-            { id: "11", tags: ["family_template_12"], name1: "Prince Charlotte of Cambridge", img0: "https://balkangraph.com/js/img/f18.png" },
-            { id: "12", tags: ["family_template_12"], name1: "Prince Louis of Cambridge", img0: "https://balkangraph.com/js/img/f19.png" }
+            { id: "2", pid: 1, tags: ["family_template_25"], name1: "Prince Philip", name2: "Queen Elizabeth II", title1: "Duke of Edinburgh", img0: "https://balkangraph.com/js/img/f3.png", img1: "https://balkangraph.com/js/img/f5.png" },
+            { id: "3", pid: 1, tags: ["family_template_11"], name1: "Princess Margaret", img0: "https://balkangraph.com/js/img/f6.png" },
+            { id: "4", pid: 2, tags: ["family_template_31"], name1: "Camila,", name2: "Charles,", name3: "Diana,", title1: "Duchess of Cornwall", title2: "Prince of Wales", title3: "Princess of Wales", img0: "https://balkangraph.com/js/img/f7.png", img1: "https://balkangraph.com/js/img/f8.png", img2: "https://balkangraph.com/js/img/f9.png" },
+            { id: "5", pid: 2, tags: ["family_template_11"], name1: "Anne", title1: "Princess Royal", img0: "https://balkangraph.com/js/img/f10.png" },
+            { id: "6", pid: 2, tags: ["family_template_11"], name1: "Prince Andrew", title1: "Duke of York", img0: "https://balkangraph.com/js/img/f11.png" },
+            { id: "7", pid: 2, pid: 2, tags: ["family_template_11"], name1: "Prince Edward", title1: "Earl of Wessex", img0: "https://balkangraph.com/js/img/f12.png" },
+            { id: "8", pid: 4, tags: ["family_template_23"], name1: "Catherine,", name2: "Prince William", title1: "Duchess of Cambridge", title2: "Duch of Cambridge", img0: "https://balkangraph.com/js/img/f13.png", img1: "https://balkangraph.com/js/img/f14.png" },
+            { id: "9", pid: 4, tags: ["family_template_22"], name1: "Prince Harry", name2: "Meghan Markle", img0: "https://balkangraph.com/js/img/f15.png", img1: "https://balkangraph.com/js/img/f16.png" },
+            { id: "10", pid: 8, tags: ["family_template_12"], name1: "Prince George of Cambridge", img0: "https://balkangraph.com/js/img/f17.png" },
+            { id: "11", pid: 8, tags: ["family_template_12"], name1: "Prince Charlotte of Cambridge", img0: "https://balkangraph.com/js/img/f18.png" },
+            { id: "12", pid: 8, tags: ["family_template_12"], name1: "Prince Louis of Cambridge", img0: "https://balkangraph.com/js/img/f19.png" }
         ]
     });
 };
