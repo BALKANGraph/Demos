@@ -1,54 +1,28 @@
 window.onload = function () {
     var nodes = [
-        { id: 1, name: "Denny Curtis", img: "https://balkangraph.com/js/img/2.jpg" },
-        { id: 2, name: "Ashley Barnett", img: "https://balkangraph.com/js/img/3.jpg" },
-        { id: 3, name: "Caden Ellison", img: "https://balkangraph.com/js/img/4.jpg" },
-        { id: 4, name: "Elliot Patel", img: "https://balkangraph.com/js/img/5.jpg" },
-        { id: 5, name: "Lynn Hussain", img: "https://balkangraph.com/js/img/6.jpg" },
-        { id: 6, name: "Tanner May", img: "https://balkangraph.com/js/img/7.jpg" },
-        { id: 7, name: "Fran Parsons", img: "https://balkangraph.com/js/img/8.jpg" }
+        { id: 1, name: "Denny Curtis", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
+        { id: 2, pid: 1, name: "Ashley Barnett", title: "IT Manager", img: "https://balkangraph.com/js/img/3.jpg" },
+        { id: 3, pid: 1, name: "Caden Ellison", title: "Marketing Manager", img: "https://balkangraph.com/js/img/4.jpg" },
+        { id: 4, pid: 2, name: "Elliot Patel", title: "Developer", img: "https://balkangraph.com/js/img/5.jpg" },
+        { id: 5, pid: 2, name: "Lynn Hussain", title: "Developer", img: "https://balkangraph.com/js/img/6.jpg" },
+        { id: 6, pid: 3, name: "Tanner May", title: "Marketing", img: "https://balkangraph.com/js/img/7.jpg" },
+        { id: 7, pid: 3, name: "Fran Parsons", title: "Marketing", img: "https://balkangraph.com/js/img/8.jpg" }
     ];
 
-    var links = [
-        { from: 2, to: 1 },
-        { from: 3, to: 1 },
-        { from: 4, to: 2 },
-        { from: 5, to: 2 },
-        { from: 6, to: 3 },
-        { from: 7, to: 3 }
-    ];
 
     for (var i = 0; i < nodes.length; i++) {
-        nodes[i].field_number_children = childCount(links, nodes[i].id);
+        nodes[i].field_number_children = childCount(nodes[i].id);
     }
 
-    function childCount(objectArray, from, children) {
+    function childCount(id) {
         let count = 0;
-
-        if (!children) {
-            children = new Set();
-            objectArray.forEach(obj => {
-                if (obj.to === from) {
-                    ++count;
-                    children.add(obj.from);
-                }
-            });
-            if (count) {
-                count += childCount(objectArray, null, children);
+        for (var i = 0; i < nodes.length; i++) {
+            if (nodes[i].pid == id) {
+                count++;
+                count += childCount(nodes[i].id);
             }
-            return count;
         }
 
-        let nextGen = new Set();
-        objectArray.forEach(obj => {
-            if (children.has(obj.to)) {
-                ++count;
-                nextGen.add(obj.from);
-            }
-        });
-        if (count) {
-            count += childCount(objectArray, null, nextGen)
-        }
         return count;
     }
 
@@ -59,10 +33,10 @@ window.onload = function () {
         scaleInitial: BALKANGraph.match.boundary,
         nodeBinding: {
             field_0: "name",
+            field_1: "title",
             img_0: "img",
             field_number_children: "field_number_children"
         },
-        links: links,
         nodes: nodes
     });
 };
