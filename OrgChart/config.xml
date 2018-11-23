@@ -20,6 +20,11 @@
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
   </Demo>
+  <Demo>
+    <Name>Zoom</Name>
+    <Type>JS</Type>
+    <GitHubLink></GitHubLink>
+  </Demo>
       <Demo>
     <Name>NumberOfChildren</Name>
     <Type>JS</Type>
