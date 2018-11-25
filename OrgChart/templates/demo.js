@@ -1,7 +1,6 @@
 
 window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
-        enableSearch: false,
         scaleInitial: BALKANGraph.match.boundary,
         template: "luba",
         nodeBinding: {
@@ -21,7 +20,7 @@ window.onload = function () {
     });
     document.getElementById("selectTemplate").addEventListener("change", function () {
         chart.config.template = this.value;
-        chart.draw(false);
+        chart.draw();
     });
 }
 
