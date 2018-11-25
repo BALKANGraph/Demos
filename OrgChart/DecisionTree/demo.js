@@ -24,16 +24,16 @@ window.onload = function () {
             field_0: "text"
         },
         linkBinding: {
-            link_field_0: "text"
+            link_field_0: "ans"
         },
         nodes: [
             { id: 1, text: "Is it raining?" },
-            { id: 2, pid: 1, text: "Is it windy?" },
-            { id: 3, pid: 1, text: "Don't bring anything", tags: ["node-end"] },
-            { id: 4, pid: 2, text: "Is it extremely windy?" },
-            { id: 5, pid: 2, text: "Use an ubrella", tags: ["node-end"] },
-            { id: 6, pid: 3, text: "Stay home" },
-            { id: 7, pid: 3, text: "Wear a rain jacket", tags: ["node-end"] }
+            { id: 2, pid: 1, text: "Is it windy?", ans: "yes" },
+            { id: 3, pid: 1, text: "Don't bring anything", tags: ["node-end"], ans: "no" },
+            { id: 4, pid: 2, text: "Is it extremely windy?", ans: "yes" },
+            { id: 5, pid: 2, text: "Use an ubrella", tags: ["node-end"], ans: "no" },
+            { id: 6, pid: 4, text: "Stay home", ans: "yes" },
+            { id: 7, pid: 4, text: "Wear a rain jacket", tags: ["node-end"], ans: "no" }
         ]
     });
 };
