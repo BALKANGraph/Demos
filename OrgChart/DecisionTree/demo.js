@@ -1,3 +1,4 @@
+
 window.onload = function () {
     OrgChart.templates.toni = Object.assign({}, OrgChart.templates.belinda);
     OrgChart.templates.toni.size = [30, 30];
@@ -5,9 +6,9 @@ window.onload = function () {
     OrgChart.templates.toni.minus = "";
     OrgChart.templates.toni.plus = "";
     OrgChart.templates.toni.rippleRadius = 15;
-    OrgChart.templates.toni.link_field_0 = '<g transform="rotate(90)"><text text-anchor="middle" fill="#aeaeae" width="290" x="0" y="0" style="font-size:18px;">{val}</text></g>';
+    OrgChart.templates.toni.link_field_0 = '<g transform="rotate(90)"><text text-anchor="middle" fill="#aeaeae" width="290" x="0" y="0" style="font-size:10px;">{val}</text></g>';
 
-    OrgChart.templates.toni.field_0 = '<text class="field_0" style="font-size: 18px;" text-anchor="middle" fill="#039BE5"  x="15" y="48">{val}</text>';
+    OrgChart.templates.toni.field_0 = '<text class="field_0" style="font-size: 10px;" text-anchor="middle" fill="#039BE5"  x="15" y="38">{val}</text>';
     var chart = new OrgChart(document.getElementById("tree"), {
         scaleInitial: BALKANGraph.match.boundary,
         enableDragDrop: false,
@@ -16,9 +17,9 @@ window.onload = function () {
         template: "toni",
         orientation: BALKANGraph.orientation.left,
         nodeMouseClickBehaviour: BALKANGraph.action.expandCollapse,
-        padding: 60,
+        padding: 50,
         levelSeparation: 200,
-        siblingSeparation: 100,
+        siblingSeparation: 40,
         nodeBinding: {
             field_0: "text"
         },
