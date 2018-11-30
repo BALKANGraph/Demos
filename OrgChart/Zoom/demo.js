@@ -2,6 +2,7 @@ window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
         template: "polina",
         enableSearch: false,
+        enableDragDrop: true,   
         scaleInitial: BALKANGraph.match.boundary,
         mouseScroolBehaviour: BALKANGraph.action.zoom,
         nodeBinding: {
