@@ -6,6 +6,11 @@
     <GitHubLink></GitHubLink>
   </Demo>
   <Demo>
+    <Name>Grouping</Name>
+    <Type>JS</Type>
+    <GitHubLink></GitHubLink>
+  </Demo>
+  <Demo>
     <Name>Assistant</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
