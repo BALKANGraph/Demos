@@ -66,8 +66,8 @@ window.onload = function () {
             { id: 10, pid: 4, tags: ["Devs"], name: "Skylar Parrish", title: "node.js Developer", img: "https://balkangraph.com/js/img/8.jpg" },
             { id: 11, pid: 4, tags: ["Devs"], name: "Ashton Koch", title: "C# Developer", img: "https://balkangraph.com/js/img/9.jpg" },
 
-            { id: 12, pid: 7, tags: ["Sales"], name: "Bret Fraser", title: "CEO", img: "https://balkangraph.com/js/img/13.jpg" },
-            { id: 13, pid: 7, tags: ["Sales"], name: "Steff Haley", title: "Director", img: "https://balkangraph.com/js/img/14.jpg" }
+            { id: 12, pid: 7, tags: ["Sales"], name: "Bret Fraser", title: "Sales", img: "https://balkangraph.com/js/img/13.jpg" },
+            { id: 13, pid: 7, tags: ["Sales"], name: "Steff Haley", title: "Sales", img: "https://balkangraph.com/js/img/14.jpg" }
         ]
     });    
 };
