@@ -4,7 +4,6 @@ window.onload = function () {
         template: "olivia",
         enableDragDrop: true,
         nodeMouseClickBehaviour: BALKANGraph.action.edit,
-        mouseScroolBehaviour: BALKANGraph.action.zoom,
         nodeMenu: {
             details: { text: "Details" },
             edit: { text: "Edit" },
@@ -47,11 +46,9 @@ window.onload = function () {
                 template: "group_grey"
             }
         },
-
-        layout: BALKANGraph.mixed,
         nodes: [
-            { id: 1, tags: ["Directors", "dumy"], name: "Billy Moore", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
-            { id: 2, tags: ["Directors", "c1"], name: "Marley Wilson", title: "Director", img: "https://balkangraph.com/js/img/3.jpg" },
+            { id: 1, tags: ["Directors"], name: "Billy Moore", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
+            { id: 2, tags: ["Directors"], name: "Marley Wilson", title: "Director", img: "https://balkangraph.com/js/img/3.jpg" },
             { id: 3, tags: ["Directors"], name: "Bennie Shelton", title: "Shareholder", img: "https://balkangraph.com/js/img/4.jpg" },
 
             { id: 4, pid: 1, name: "Billie Rose", title: "Dev Team Lead", img: "https://balkangraph.com/js/img/5.jpg" },
