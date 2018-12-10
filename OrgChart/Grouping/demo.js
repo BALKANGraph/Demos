@@ -50,7 +50,7 @@ window.onload = function () {
 
         layout: BALKANGraph.mixed,
         nodes: [
-            { id: 1, tags: ["Directors", "dumy"], name: "Bret Fraser", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
+            { id: 1, tags: ["Directors", "dumy"], name: "Billy Moore", title: "CEO", img: "https://balkangraph.com/js/img/2.jpg" },
             { id: 2, tags: ["Directors", "c1"], name: "Marley Wilson", title: "Director", img: "https://balkangraph.com/js/img/3.jpg" },
             { id: 3, tags: ["Directors"], name: "Bennie Shelton", title: "Shareholder", img: "https://balkangraph.com/js/img/4.jpg" },
 
@@ -67,7 +67,7 @@ window.onload = function () {
             { id: 11, pid: 4, tags: ["Devs"], name: "Ashton Koch", title: "C# Developer", img: "https://balkangraph.com/js/img/9.jpg" },
 
             { id: 12, pid: 7, tags: ["Sales"], name: "Bret Fraser", title: "CEO", img: "https://balkangraph.com/js/img/13.jpg" },
-            { id: 13, pid: 7, tags: ["Sales"], name: "Marley Wilson", title: "Director", img: "https://balkangraph.com/js/img/14.jpg" }
+            { id: 13, pid: 7, tags: ["Sales"], name: "Steff Haley", title: "Director", img: "https://balkangraph.com/js/img/14.jpg" }
         ]
     });    
 };
