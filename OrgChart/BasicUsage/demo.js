@@ -5,6 +5,8 @@ window.onload = function () {
         template: "derek",
         enableDragDrop: true,
         menu: {
+            pdf: { text: "Export PDF" },
+            png: { text: "Export PNG" },
             svg: { text: "Export SVG" },
             csv: { text: "Export CSV" }
         },
