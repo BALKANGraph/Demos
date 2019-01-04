@@ -55,8 +55,13 @@
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
   </Demo>
-  <Demo>
+    <Demo>
     <Name>DecisionTree</Name>
+    <Type>JS</Type>
+    <GitHubLink></GitHubLink>
+  </Demo>
+  <Demo>
+    <Name>ConditionalColor</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
   </Demo>
