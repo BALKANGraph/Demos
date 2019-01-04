@@ -2,7 +2,7 @@ window.onload = function () {
     var c = document.getElementById("console");
 
     function updateNode(sender, node) {
-        c.innerHTML += "updateNode(node: " + node + ")<br />";
+        c.innerHTML += "updateNode(sender, node)<br />";
     };
 
     function removeNode(id) {
@@ -10,11 +10,15 @@ window.onload = function () {
     };
 
     function addNode(sender, node) {
-        c.innerHTML += "addNode(node: " + node + ")<br />";
+        c.innerHTML += "addNode(sender, node)<br />";
     };
 
     function redraw() {
         c.innerHTML += "redraw()<br />";
+    };
+
+    function click(sender, node) {
+        c.innerHTML += "click(sender, node)<br />";
     };
 
     var chart = new OrgChart(document.getElementById("tree"), {
@@ -24,6 +28,7 @@ window.onload = function () {
         onUpdate: updateNode,
         onRemove: removeNode,
         onAdd: addNode,
+        onClick: click,
         onRedraw: redraw,
         nodeMenu: {
             details: { text: "Details" },
