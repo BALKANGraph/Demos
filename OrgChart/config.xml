@@ -41,11 +41,6 @@
     <GitHubLink></GitHubLink>
   </Demo>
   <Demo>
-    <Name>TemplatePicker</Name>
-    <Type>JS</Type>
-    <GitHubLink></GitHubLink>
-  </Demo>
-  <Demo>
     <Name>Templates</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
