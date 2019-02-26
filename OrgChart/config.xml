@@ -20,6 +20,11 @@
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
   </Demo>
+    <Demo>
+    <Name>MultipleParents</Name>
+    <Type>JS</Type>
+    <GitHubLink></GitHubLink>
+  </Demo>
   <Demo>
     <Name>DepartamentTemplate</Name>
     <Type>JS</Type>
