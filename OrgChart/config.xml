@@ -6,6 +6,11 @@
     <GitHubLink></GitHubLink>
   </Demo>
   <Demo>
+    <Name>Layouts</Name>
+    <Type>JS</Type>
+    <GitHubLink></GitHubLink>
+  </Demo>
+  <Demo>
     <Name>Exporting</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
