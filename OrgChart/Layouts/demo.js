@@ -3,6 +3,7 @@ window.onload = function () {
         template: "ula",
         toolbar: true,
         layout: BALKANGraph.tree,
+        align: BALKANGraph.ORIENTATION,
         nodeBinding: {
             field_0: "name",
             field_1: "title",
