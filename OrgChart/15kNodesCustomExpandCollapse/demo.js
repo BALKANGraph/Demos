@@ -24,8 +24,6 @@ window.onload = function () {
             sender.center(centerId, BALKANGraph.COLLAPSE_PARENT_NEIGHBORS, BALKANGraph.COLLAPSE_SUB_CHILDRENS, rippleId);
             return false;
         },
-        toolbar: true,
-        padding: 30,
         nodeBinding: {
             field_0: "id",
             field_1: "pid"
