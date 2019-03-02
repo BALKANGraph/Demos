@@ -6,6 +6,8 @@ window.onload = function () {
             level: 2,
             allChildren: true,
         },
+
+        align: BALKANGraph.ORIENTATION,
         mouseScroolBehaviour: BALKANGraph.action.xScroll,
         showXScroll: BALKANGraph.scroll.visible,
         onSearchClick: function (sender, nodeId) {
