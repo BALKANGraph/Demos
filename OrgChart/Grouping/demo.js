@@ -4,6 +4,7 @@ window.onload = function () {
         template: "olivia",
         enableDragDrop: true,
         nodeMouseClickBehaviour: BALKANGraph.action.edit,
+        scaleInitial: BALKANGraph.match.boundary,
         nodeMenu: {
             details: { text: "Details" },
             edit: { text: "Edit" },
