@@ -6,7 +6,7 @@ window.onload = function () {
             level: 2,
             allChildren: true,
         },
-
+        nodeMouseClickBehaviour: BALKANGraph.action.none,
         align: BALKANGraph.ORIENTATION,
         mouseScroolBehaviour: BALKANGraph.action.xScroll,
         showXScroll: BALKANGraph.scroll.visible,
