@@ -14,6 +14,7 @@ window.onload = function () {
     OrgChart.templates.department.node =
         '<rect x="0" y="0" width="330" height="50" fill="#ffffff" stroke-width="1" stroke="#aeaeae"></rect>';
     OrgChart.templates.department.field_0 = '<text style="font-size: 24px;" fill="#aeaeae" x="165" y="30" text-anchor="middle">{val}</text>';
+    OrgChart.templates.department.ripple.radius = 0;
     OrgChart.templates.department.ripple.color = "#F57C00";
 
 
@@ -25,6 +26,7 @@ window.onload = function () {
         '<rect x="0" y="0" width="50" height="300" fill="#ffffff" stroke-width="1" stroke="#aeaeae"></rect>';
     OrgChart.templates.staff.field_0 = '<text transform="rotate(90)"  style="font-size: 24px;" fill="#aeaeae" x="150" y="-15" text-anchor="middle">{val}</text>';
     OrgChart.templates.staff.ripple.color = "#FFCA28";
+    OrgChart.templates.staff.ripple.radius = 0;
 
 
 
