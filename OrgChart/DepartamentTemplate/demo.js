@@ -6,15 +6,15 @@ window.onload = function () {
         + '<g transform="matrix(3.5,0,0,3.5,20,20)"><circle cx="12" cy="22" r="12" fill="#039BE5"></circle>'
         + '<circle cx="33" cy="14" r="10" fill="#FFCA28"></circle>'
         + '<circle cx="30" cy="32" r="8" fill="#F57C00"></circle></g>';
-    OrgChart.templates.company.rippleColor = "#039BE5";
-    OrgChart.templates.company.rippleRadius = 100;
+    OrgChart.templates.company.ripple.color = "#039BE5";
+    OrgChart.templates.company.ripple.radius = 100;
 
     OrgChart.templates.department = Object.assign({}, OrgChart.templates.ana);
     OrgChart.templates.department.size = [330, 50];
     OrgChart.templates.department.node =
         '<rect x="0" y="0" width="330" height="50" fill="#ffffff" stroke-width="1" stroke="#aeaeae"></rect>';
     OrgChart.templates.department.field_0 = '<text style="font-size: 24px;" fill="#aeaeae" x="165" y="30" text-anchor="middle">{val}</text>';
-    OrgChart.templates.department.rippleColor = "#F57C00";
+    OrgChart.templates.department.ripple.color = "#F57C00";
 
 
 
@@ -24,7 +24,7 @@ window.onload = function () {
     OrgChart.templates.staff.node =
         '<rect x="0" y="0" width="50" height="300" fill="#ffffff" stroke-width="1" stroke="#aeaeae"></rect>';
     OrgChart.templates.staff.field_0 = '<text transform="rotate(90)"  style="font-size: 24px;" fill="#aeaeae" x="150" y="-15" text-anchor="middle">{val}</text>';
-    OrgChart.templates.staff.rippleColor = "#FFCA28";
+    OrgChart.templates.staff.ripple.color = "#FFCA28";
 
 
 
