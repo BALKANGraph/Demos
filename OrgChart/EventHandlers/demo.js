@@ -13,8 +13,8 @@ window.onload = function () {
         c.innerHTML += "addNode(sender, node)<br />";
     };
 
-    function redraw() {
-        c.innerHTML += "redraw()<br />";
+    function redraw(sender) {
+        c.innerHTML += "redraw(sender)<br />";
     };
 
     function click(sender, node) {
