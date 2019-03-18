@@ -1,15 +1,15 @@
 window.onload = function () {
     var c = document.getElementById("console");
 
-    function updateNode(sender, node) {
-        c.innerHTML += "updateNode(sender, node)<br />";
+    function update(sender, oldNode, newNode) {
+        c.innerHTML += "update(sender, oldNode, newNode)<br />";
     };
 
-    function removeNode(id) {
-        c.innerHTML += "removeNode(id=" + id + ")<br />";
+    function remove(id) {
+        c.innerHTML += "remove(id)<br />";
     };
 
-    function addNode(sender, node) {
+    function add(sender, node) {
         c.innerHTML += "addNode(sender, node)<br />";
     };
 
@@ -21,15 +21,52 @@ window.onload = function () {
         c.innerHTML += "click(sender, node)<br />";
     };
 
+    function imageUploaded(file, inputHtmlElement) {
+        c.innerHTML += "click(file, inputHtmlElement)<br />";
+    };
+
+    function updateTags(sender, tags) {
+        c.innerHTML += "updateTags(sender, tags)<br />";
+    };
+
+    function expCollClick(sender, action, id, ids) {
+        c.innerHTML += "expCollClick(sender, action, id, ids)<br />";
+    }
+
+    function exportEnd(sender, type, filename, content) {
+        c.innerHTML += "exportEnd(sender, type, filename, content)<br />";
+    }
+
+    function exportStart(sender, type, filename) {
+        c.innerHTML += "exportStart(sender, type, filename)<br />";
+    };
+
+    function searchClick(sender, nodeId) {
+        c.innerHTML += "searchClick(sender, nodeId)<br />";
+    };
+
+
+    
+
     var chart = new OrgChart(document.getElementById("tree"), {
         scaleInitial: BALKANGraph.match.boundary,
         enableDragDrop: true,
         enableSearch: false,
-        onUpdate: updateNode,
-        onRemove: removeNode,
-        onAdd: addNode,
+        onUpdate: update,
+        onRemove: remove,
+        onAdd: add,
+        onImageUploaded: imageUploaded,
+        onUpdateTags: updateTags, 
         onClick: click,
         onRedraw: redraw,
+        onExpCollClick: expCollClick,
+        onExportStart: exportStart,
+        onExportEnd: exportEnd,
+        onSearchClick: searchClick,
+        dragDropMenu: {
+            addInGroup: { text: "Add in group" },
+            addAsChild: { text: "Add as child" }
+        },
         nodeMenu: {
             details: { text: "Details" },
             edit: { text: "Edit" },

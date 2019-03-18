@@ -42,7 +42,7 @@
     <GitHubLink></GitHubLink>
   </Demo>
     <Demo>
-    <Name>Events</Name>
+    <Name>EventHandlers</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
   </Demo>
