@@ -18,8 +18,8 @@ window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
         enableSearch: false,
         template: "belinda",
-        nodeMouseClickBehaviour: BALKANGraph.action.expandCollapse,
-        mouseScroolBehaviour: BALKANGraph.action.yScroll,
+        nodeMouseClick: BALKANGraph.action.expandCollapse,
+        mouseScrool: BALKANGraph.action.yScroll,
         showYScroll: BALKANGraph.scroll.visible,
         nodeBinding: {
             field_0: "text",

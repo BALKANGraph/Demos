@@ -29,7 +29,7 @@ window.onload = function () {
         template: "ana",
         lazyLoading: true,
         showXScroll: BALKANGraph.scroll.visible,
-        mouseScroolBehaviour: BALKANGraph.action.xScroll,
+        mouseScrool: BALKANGraph.action.xScroll,
         layout: BALKANGraph.mixed,
         scaleInitial: BALKANGraph.match.height,
         nodeBinding: {

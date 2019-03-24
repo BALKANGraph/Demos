@@ -6,9 +6,9 @@ window.onload = function () {
             level: 2,
             allChildren: true,
         },
-        nodeMouseClickBehaviour: BALKANGraph.action.none,
+        nodeMouseClick: BALKANGraph.action.none,
         align: BALKANGraph.ORIENTATION,
-        mouseScroolBehaviour: BALKANGraph.action.xScroll,
+        mouseScrool: BALKANGraph.action.xScroll,
         showXScroll: BALKANGraph.scroll.visible,
         onSearchClick: function (sender, nodeId) {
             sender.center(nodeId, BALKANGraph.COLLAPSE_PARENT_NEIGHBORS, BALKANGraph.COLLAPSE_SUB_CHILDRENS);

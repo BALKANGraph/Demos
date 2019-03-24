@@ -3,7 +3,7 @@ window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
         template: "olivia",
         layout: BALKANGraph.mixed,
-        mouseScroolBehaviour: BALKANGraph.none,
+        mouseScrool: BALKANGraph.none,
         menu: {
             pdf: { text: "Export PDF" },
             png: { text: "Export PNG" },

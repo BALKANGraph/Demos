@@ -5,7 +5,7 @@ window.onload = function () {
         enableSearch: false,
         enableDragDrop: true,
         scaleInitial: BALKANGraph.match.boundary,
-        mouseScroolBehaviour: BALKANGraph.action.zoom,
+        mouseScrool: BALKANGraph.action.zoom,
         nodeBinding: {
             field_0: "name",
             field_1: "title",

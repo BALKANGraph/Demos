@@ -3,7 +3,7 @@ window.onload = function () {
     var chart = new OrgChart(document.getElementById("tree"), {
         template: "olivia",
         enableDragDrop: true,
-        nodeMouseClickBehaviour: BALKANGraph.action.edit,
+        nodeMouseClick: BALKANGraph.action.edit,
         scaleInitial: BALKANGraph.match.boundary,
         nodeMenu: {
             details: { text: "Details" },

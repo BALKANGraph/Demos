@@ -116,8 +116,8 @@ window.onload = function () {
             }
         },
         enableSearch: false,
-        nodeMouseClickBehaviour: BALKANGraph.action.none,
-        mouseScroolBehaviour: BALKANGraph.action.zoom,
+        nodeMouseClick: BALKANGraph.action.none,
+        mouseScrool: BALKANGraph.action.zoom,
         scaleInitial: BALKANGraph.match.boundary,
         nodeBinding: {
             name_1: "name1",
