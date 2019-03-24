@@ -21,6 +21,10 @@ window.onload = function () {
         c.innerHTML += "click(sender, node)<br />";
     };
 
+    function dbclick(sender, node) {
+        c.innerHTML += "dbclick(sender, node)<br />";
+    };
+
     function imageUploaded(file, inputHtmlElement) {
         c.innerHTML += "click(file, inputHtmlElement)<br />";
     };
@@ -58,6 +62,7 @@ window.onload = function () {
         onImageUploaded: imageUploaded,
         onUpdateTags: updateTags, 
         onClick: click,
+        onDbClick: dbclick,
         onRedraw: redraw,
         onExpCollClick: expCollClick,
         onExportStart: exportStart,
