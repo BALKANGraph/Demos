@@ -61,11 +61,11 @@
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
   </Demo>
-  <Demo>
+  <!--<Demo>
     <Name>5000Nodes</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
-  </Demo>
+  </Demo>-->
     <Demo>
     <Name>DecisionTree</Name>
     <Type>JS</Type>
