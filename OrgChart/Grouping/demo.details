@@ -4,4 +4,5 @@ authors:
   - "Plamen Peshev"
 description: "OrgChart JS supports Grouping of nodes.  Most organizations group departments by function—e.g. marketing, HR, sales, etc.—but you could also group by product for larger companies or physical location for international companies."
 name: "Grouping - OrgChart JS | BALKANGraph"
+tags: "grouping,group,drag and drop"
 ...

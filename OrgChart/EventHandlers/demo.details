@@ -4,4 +4,5 @@ authors:
   - "Plamen Peshev"
 description: "OrgChart JS client side events demo"
 name: "Events - OrgChart JS | BALKANGraph"
+tags: "event handlers,events,drag and drop,add,remove,delete,group"
 ...

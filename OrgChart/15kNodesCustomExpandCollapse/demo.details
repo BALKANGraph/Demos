@@ -4,4 +4,5 @@ authors:
   - "Plamen Peshev"
 description: "This demo illustrates how to add use OrgChasrt JS with custom Expand/Collapse."
 name: "15k nodes with custom Expand/Collapse - OrgChart JS | BALKANGraph"
+tags: "15k nodes custom expand collapse,performance,layout,expand-collapse,center"
 ...

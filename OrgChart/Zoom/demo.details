@@ -4,4 +4,5 @@ authors:
   - "Plamen Peshev"
 description: "The OrgChart JS zooming feature, added through JavaScript, allows the user to zoom the chart so the data is shown in greater detail."
 name: "Zoom - OrgChart JS | BALKANGraph"
+tags: "zoom,zoom in,zoom out,scroll"
 ...

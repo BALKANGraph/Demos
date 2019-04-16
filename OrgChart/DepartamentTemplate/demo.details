@@ -4,4 +4,5 @@ authors:
   - "Plamen Peshev"
 description: "OrgChart JS demo shows how to implement your own template with vertical and horizontal nodes, you can use this demo as a starting point to implement your won custom template."
 name: "Departament Template - OrgChart JS | BALKANGraph"
+tags: "departament template,template,vertical template,custom ripple"
 ...

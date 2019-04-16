@@ -4,4 +4,5 @@ authors:
   - "Plamen Peshev"
 description: "Layout org chart properly for a better visual effect which will make it more understandable."
 name: "Layout - OrgChart JS | BALKANGraph"
+tags: "layouts,layouts,tree,mixed,left offset,right offset"
 ...
