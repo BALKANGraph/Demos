@@ -4,7 +4,13 @@ window.onload = function () {
         scaleInitial: BALKANGraph.match.boundary,
         template: "derek",
         enableDragDrop: true,
-        toolbar: true,
+         toolbar: {
+            layout: true,
+            zoom: true,
+            fit: true,
+            expandAll: true
+        },
+
         menu: {
             pdf: { text: "Export PDF" },
             png: { text: "Export PNG" },
