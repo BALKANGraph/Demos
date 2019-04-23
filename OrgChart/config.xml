@@ -6,11 +6,6 @@
     <GitHubLink></GitHubLink>
   </Demo>
   <Demo>
-    <Name>Layouts</Name>
-    <Type>JS</Type>
-    <GitHubLink></GitHubLink>
-  </Demo>
-  <Demo>
     <Name>Exporting</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
@@ -27,11 +22,6 @@
   </Demo>
     <Demo>
     <Name>MultipleParents</Name>
-    <Type>JS</Type>
-    <GitHubLink></GitHubLink>
-  </Demo>
-  <Demo>
-    <Name>15kNodesCustomExpandCollapse</Name>
     <Type>JS</Type>
     <GitHubLink></GitHubLink>
   </Demo>
